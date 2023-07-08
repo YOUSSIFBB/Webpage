@@ -1,14 +1,4 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
- * Reference: https://www.youtube.com/watch?v=C3dfjyft_m4
- * Reference : https://www.youtube.com/watch?v=LkvdPf6LCeM
- * https://api.jsonbin.io/v3/b/6393772dc5b3a64f1bc79301   cc
- */
-/*
- * Reference: https://www.youtube.com/watch?v=C3dfjyft_m4
- * Reference : https://www.youtube.com/watch?v=LkvdPf6LCeM
- */
+
 //print Json data indavidualy for each P tag in the home page using the Fetch API 
 fetch("https://api.jsonbin.io/v3/b/6393772dc5b3a64f1bc79301")
         .then(response => response.json())
