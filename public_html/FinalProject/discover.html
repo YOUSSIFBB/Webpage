@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>JetBird</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="finalProject.css">
+        <script src = "finalProject.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+        <!--connect the fonts-->
+        <script src="https://kit.fontawesome.com/a9f8161db4.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--logo & navigation bar-->
+        <section class="header1">
+            <nav>
+                <a href="homePage.html"><img src="img/logo.png" class="logo" alt="logo"></a>		
+                <div class="navagationBar1" id="navigationIcon">
+                    <!--closing "x" & menue icon navigation bar on small devices-->
+                    <i class="fa fa-times" onclick="hiddenMenue()"></i>
+                    <ul>
+                        <li><a href="homePage.html">HOME</a></li>
+                        <li><a href="discover.html">DESTINATION</a></li>
+                        <li><a href="countryInfo.html">COUNTRY INFO</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="visibleMenue()"></i>
+            </nav>
+
+            <!--About-Us-Box-->
+            <div class="About-Us-Box1">
+                <h1>Explore 15 premium destinations with us!</h1>
+                <p>We are delighted to reunite you and your loved ones,<br/>Check out our latest Flight offers available</p>
+            </div>
+        </section>
+
+        <section class="flight-collection">
+            <h1>Flight Ticket Collection</h1>
+            <p>Check Out The Tickets Info below:</p>
+
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country1.jpg" />
+                    <h3>Turkey</h3>
+                    <p class = "d1"></p>
+                    <button class = "btn1">Click me</button>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country2.jpg" />
+                    <h3>Ireland</h3>
+                    <p class = "d2"></p>
+                    <button class = "btn2">Click me</button>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country3.jpg" />
+                    <h3>Spain</h3>
+                    <p class = "d3"></p>
+                    <button class = "btn3">Click me</button>
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country4.jpg" />
+                    <h3>Greece</h3>
+                    <p class ="d4"></p>
+                    <button class = "btn4">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country5.jpg" />
+                    <h3>France</h3>
+                    <p class ="d5"></p>
+                    <button class = "btn5">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country6.jpg" />
+                        <h3>Italy</h3>
+                        <p class = "d6"></p>
+                    <button class = "btn6">Click me</button>
+
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country7.jpg" />
+                    <h3>Germany</h3>
+                    <p class = "d7"></p>
+                    <button class = "btn7">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country8.jpg" />
+                    <h3>Australia</h3>
+                    <p class = "d8"></p>
+                    <button class = "btn8">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country9.jpg" />
+                    <h3>Portugal</h3>
+                    <p class = "d9"></p>
+                    <button class = "btn9">Click me</button>
+
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country10.jpg" />
+                    <h3>Japan</h3>
+                    <p class = "d10"></p>
+                    <button class = "btn10">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country11.jpg" />
+                    <h3>Dubai</h3>
+                    <p class = "d11"></p>
+                    <button class = "btn11">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country12.jpg" />
+                    <h3>Egypt</h3>
+                    <p class = "d12"></p>
+                    <button class = "btn12">Click me</button>
+
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country13.jpg" />
+                    <h3>Qatar</h3>
+                    <p class = "d13"></p>
+                    <button class = "btn13">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country14.jpg" />
+                    <h3>England</h3>
+                    <p class = "d14"></p>
+                    <button class = "btn14">Click me</button>
+
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country12.jpg" />
+                    <h3>Finland</h3>
+                    <p class = "d15"></p>
+                    <button class = "btn15">Click me</button>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Javascript, allowing icons to hide/show small devices-->
+        <!--https://www.bing.com/videos/search?view=detail&mid=732BB3ADE7EFC3CAB0B9732BB3ADE7EFC3CAB0B9&q=how to add responsive icon logo menue&shtp=GetUrl&shid=8a1b8ded-e882-4965-b3dd-6b94ee79a564&shtk=SG93IHRvIENyZWF0ZSBSZXNwb25zaXZlIE5hdmlnYXRpb24gQmFyIHVzaW5nIEhUTUwgYW5kIENTUw%3D%3D&shdk=SG93IHRvIENyZWF0ZSBSZXNwb25zaXZlIE5hdmlnYXRpb24gQmFyIHVzaW5nIEhUTUwgYW5kIENTUyBJbiB0aGlzIHZpZGVvLCBJIGhhdmUgc2hvd24geW91IGhvdyB0byBjcmVhdGUgYSByZXNwb25zaXZlIG5hdmlnYXRpb24gYmFyIHVzaW5nIGh0bWwgYW5kIGNzcyBvbmx5IE5PVEU6IE5vd2FkYXlzIHRoYXQgZm9udCBhd2Vzb21lIGxpbmsgSSBwcm92aWRlZCBub3Qgc3VwcG9ydCBzbyB5b3VyIGljb24gbWF5IG5vdCBiZSBzaG93aW5nLiBQbGVhc2UgdXNlIHRoZSBsYXRlc3QgQ0ROIGxpbmsgd2hpY2ggeW91IGNhbiBlYXNpbHkgZmluZCBvbiBHb29nbGUuIFJlc3BvbnNpdmUgRHJvcGRvd24gTWVudSAuLi4%3D&shhk=JuSHGCuTayyqdXTx15fwW8IENHkWFwBoylB3GX42t7M%3D&form=VDSHOT&shth=OVP.dnaBwazD3vcc0PJJqTzZdwHgFo-->
+        <!--Video above explains how to create resopsive icons-->
+        <script>
+            var navigationIcon = document.getElementById("navigationIcon")
+            function visibleMenue() {
+                navigationIcon.style.right = "0";
+            }
+            function hiddenMenue() {
+                navigationIcon.style.right = "-205px";
+            }
+
+            // Reference : https://www.youtube.com/watch?v=LkvdPf6LCeM
+            const btn1 = document.querySelector('.btn1');  //click button
+            const btn2 = document.querySelector('.btn2');
+            const btn3 = document.querySelector('.btn3');
+            const btn4 = document.querySelector('.btn4');
+            const btn5 = document.querySelector('.btn5');
+            const btn6 = document.querySelector('.btn6');
+            const btn7 = document.querySelector('.btn7');
+            const btn8 = document.querySelector('.btn8');
+            const btn9 = document.querySelector('.btn9');
+            const btn10 = document.querySelector('.btn10');
+            const btn11 = document.querySelector('.btn11');
+            const btn12 = document.querySelector('.btn12');
+            const btn13 = document.querySelector('.btn13');
+            const btn14 = document.querySelector('.btn14');
+            const btn15 = document.querySelector('.btn15');
+
+
+
+            const d1 = document.querySelector('.d1'); //htm p tag
+            const d2 = document.querySelector('.d2'); //htm p tag
+            const d3 = document.querySelector('.d3'); //htm p tag
+            const d4 = document.querySelector('.d4'); //htm p tag
+            const d5 = document.querySelector('.d5'); //htm p tag
+            const d6 = document.querySelector('.d6'); //htm p tag
+            const d7 = document.querySelector('.d7'); //htm p tag
+            const d8 = document.querySelector('.d8'); //htm p tag
+            const d9 = document.querySelector('.d9'); //htm p tag
+            const d10 = document.querySelector('.d10'); //htm p tag
+            const d11 = document.querySelector('.d11'); //htm p tag
+            const d12 = document.querySelector('.d12'); //htm p tag
+            const d13 = document.querySelector('.d13'); //htm p tag
+            const d14 = document.querySelector('.d14'); //htm p tag
+            const d15 = document.querySelector('.d15'); //htm p tag
+            const url = 'https://api.jsonbin.io/v3/b/6393772dc5b3a64f1bc79301';
+
+            //click button to inject data  (1)
+            btn1.onclick = () => {
+                d1.innerHTML = "Information : ";
+                getData1();
+            }
+
+            //second button (2)
+            btn2.onclick = () => {
+                d2.innerHTML = "Information : ";
+                getData2();
+            }
+
+            //third button (3)
+            btn3.onclick = () => {
+                d3.innerHTML = "Information : ";
+                getData3();
+            }
+
+            //fourth button (4)
+            btn4.onclick = () => {
+                d4.innerHTML = "Information : ";
+                getData4();
+
+            }
+
+            //fifth button (5)
+            btn5.onclick = () => {
+                d5.innerHTML = "Information : ";
+                getData5();
+
+            }
+
+            //sixth button (6)
+            btn6.onclick = () => {
+                d6.innerHTML = "Information : ";
+                getData6();
+
+            }
+
+            //7th button (7)
+            btn7.onclick = () => {
+                d7.innerHTML = "Information : ";
+                getData7();
+
+            }
+
+            //8th button (8)
+            btn8.onclick = () => {
+                d8.innerHTML = "Information : ";
+                getData8();
+
+            }
+
+            //9th button (9)
+            btn9.onclick = () => {
+                d9.innerHTML = "Information : ";
+                getData9();
+
+            }
+
+            //10th button (10)
+            btn10.onclick = () => {
+                d10.innerHTML = "Information : ";
+                getData10();
+
+            }
+
+            //11th button (11)
+            btn11.onclick = () => {
+                d11.innerHTML = "Information : ";
+                getData11();
+
+            }
+
+            //12th button (11)
+            btn12.onclick = () => {
+                d12.innerHTML = "Information : ";
+                getData12();
+
+            }
+
+            //13th button (13)
+            btn13.onclick = () => {
+                d13.innerHTML = "Information : ";
+                getData13();
+
+            }
+
+            //14th button (14)
+            btn14.onclick = () => {
+                d14.innerHTML = "Information : ";
+                getData14();
+
+            }
+
+            //15th button (15)
+            btn15.onclick = () => {
+                d15.innerHTML = "Information : ";
+                getData15();
+
+            }
+
+
+
+            function getData1() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData1(data.record.JetBird.Country);
+                        })
+
+            }
+
+            function getData2() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData2(data.record.JetBird.Country);
+                        })
+
+            }
+            function getData3() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData3(data.record.JetBird.Country);
+                        })
+
+            }
+            function getData4() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData4(data.record.JetBird.Country);
+                        })
+
+            }  function getData5() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData5(data.record.JetBird.Country);
+                        })
+
+            }  function getData6() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData6(data.record.JetBird.Country);
+                        })
+
+            }  function getData7() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData7(data.record.JetBird.Country);
+                        })
+
+            }  function getData8() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData8(data.record.JetBird.Country);
+                        })
+
+            }  function getData9() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData9(data.record.JetBird.Country);
+                        })
+
+            }  function getData10() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData10(data.record.JetBird.Country);
+                        })
+
+            }  function getData11() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData11(data.record.JetBird.Country);
+                        })
+
+            }  function getData12() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData12(data.record.JetBird.Country);
+                        })
+
+            }  function getData13() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData13(data.record.JetBird.Country);
+                        })
+
+            }  function getData14() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData14(data.record.JetBird.Country);
+                        })
+
+            }  function getData15() {
+                fetch(url)
+                        .then(rep => rep.json())
+                        .then(data => {
+                            outData15(data.record.JetBird.Country);
+                        })
+
+            }
+
+
+            function outData1(val) {
+                console.log(val);
+
+                //Turkey tickets info
+                d1.innerHTML += `<div> Flight Status: ${val[0].Turkey.tickets[0].flight_status} <br>
+                Date From : ${val[0].Turkey.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[0].Turkey.tickets[0].Departure_date[0].date_to} <br> 
+                <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult} <br>
+                Student: ${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                Child : ${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                Infant :${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant} <br> 
+                <br>(Economy Roundtrip) <br> Adult :${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                Student :${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                Child :${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                Infant :${val[0].Turkey.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                <br>
+                (Business class Oneway)
+                <br>
+                Adult :${val[0].Turkey.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                Student : ${val[0].Turkey.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                Child : ${val[0].Turkey.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                Infant : ${val[0].Turkey.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                <br> 
+                (Business class Roundtrip)
+                <br>
+                Adult :${val[0].Turkey.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                Student :${val[0].Turkey.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                Child :${val[0].Turkey.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                Infant :${val[0].Turkey.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                </div>`
+            }
+                //Ireland tickets Info
+                function outData2(val) {
+                console.log(val);
+                d2.innerHTML += `<div> Flight Status: ${val[1].Ireland.tickets[0].flight_status}<br>
+                    Date From : ${val[1].Ireland.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[1].Ireland.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[1].Ireland.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[1].Ireland.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[1].Ireland.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[1].Ireland.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[1].Ireland.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[1].Ireland.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[1].Ireland.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[1].Ireland.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[1].Ireland.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                </div>`
+            }function outData3(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d3.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}function outData4(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d4.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+                function outData5(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d5.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+                function outData6(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d6.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                
+                </div>`}
+                function outData7(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d7.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+                function outData8(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d8.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+                function outData9(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d9.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+                function outData10(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d10.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+                function outData11(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d11.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}function outData12(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d12.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}function outData13(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d13.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}function outData14(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d14.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}function outData15(val) {
+                console.log(val);
+                //Spain tickets Info
+
+                d15.innerHTML += `<div> Flight Status: ${val[2].Spain.tickets[0].flight_status}<br> 
+                    Date From : ${val[2].Spain.tickets[0].Departure_date[0].date_from} <br> Date to : ${val[2].Spain.tickets[0].Departure_date[0].date_to}<br>
+                    <br> (Flights Prices) <br><br>(Economy Oneway) :<br>  Adults :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student: ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].student} <br>
+                    Child : ${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br>
+                    (Economy Roundtrip)
+                    <br> Adult :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].adult}<br> 
+                    Student :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].student} <br> 
+                    Child :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].child}<br> 
+                    Infant :${val[2].Spain.tickets[0].passenger_selection[0].economy_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+                    <br>
+                    (Business class Oneway)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].adult}<br>
+                    Student : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].student}<br>
+                    Child : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].child}<br>
+                    Infant : ${val[2].Spain.tickets[0].business_class.tripway[0].one_way.passenger_price[0].infant}<br>
+                    <br> 
+                    (Business class Roundtrip)
+                    <br>
+                    Adult :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].adult}<br>
+                    Student :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].student}<br>
+                    Child :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].child}<br>
+                    Infant :${val[2].Spain.tickets[0].business_class.tripway[0].round_trip.passenger_price[0].infant}<br>
+
+                
+                </div>`}
+              
+           
+
+        </script>
+
+    </body>
+</html>
