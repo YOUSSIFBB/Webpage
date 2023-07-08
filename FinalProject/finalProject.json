@@ -1,0 +1,1348 @@
+{
+    "JetBird": {
+        "Country": [
+            {
+                "Turkey": {
+                    "capital": "Ankara",
+                    "description": "Turkey is located in Southeastern Europe and Southwestern Asia. European (or Balkan) Turkey is relatively small compared to the Asian part, the Anatolian Plateau, which is a large peninsula.",
+                    "population": 84680273,
+                    "currency": "Turkish lira",
+                    "language": [
+                        {
+                            "official_language": "Turkish",
+                            "other_languages": [
+                                "Kurdish",
+                                "Zaza",
+                                "Circassian",
+                                "Laz",
+                                "Arabic"
+                            ]
+                        }
+                    ],
+                    "largest_city": "Istanbul",
+                    "religion": "Islam",
+                    "demonym(s)": [
+                        "Turkish",
+                        "Turk"
+                    ],
+                    "calling_code": "+90",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-20",
+                                    "date_to": "2023-01-17"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 435,
+                                                            "student": 300,
+                                                            "child": 290,
+                                                            "infant": 220
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 535,
+                                                            "student": 500,
+                                                            "child": 490,
+                                                            "infant": 420
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 535,
+                                                    "student": 400,
+                                                    "child": 390,
+                                                    "infant": 320
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 635,
+                                                    "student": 600,
+                                                    "child": 690,
+                                                    "infant": 520
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Ireland": {
+                    "capital": "Dublin",
+                    "description": "Ireland is divided between the Republic of Ireland (officially named Ireland), which covers five-sixths of the island, and Northern Ireland, which is part of the United Kingdom.",
+                    "population": 7026636,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "offical_language":"English",
+                            "other_languages": [
+                                "Irish",
+                                "ISL",
+                                "Ulster Scots",
+                                "NISL",
+                                "Shelta"
+                            ]
+                        }
+                    ],
+                    "largest_city": "Dublin",
+                    "religion": "Christianity",
+                    "demonym(s)": "Irish",
+                    "calling_code": "+353",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-10",
+                                    "date_to": "2023-01-27"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 425,
+                                                            "student": 280,
+                                                            "child": 270,
+                                                            "infant": 200
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 525,
+                                                            "student": 490,
+                                                            "child": 470,
+                                                            "infant": 400
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 525,
+                                                    "student": 390,
+                                                    "child": 380,
+                                                    "infant": 310
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 625,
+                                                    "student": 590,
+                                                    "child": 600,
+                                                    "infant": 500
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Spain": {
+                    "capital": "Madrid",
+                    "description": "Spain or the Kingdom of Spain (Reino de España), is a country primarily located in southwestern Europe with parts of territory in the Atlantic Ocean.",
+                    "population": 47163418,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "offical_language": "Spanish",
+                            "other_languages": [
+                                "Aranese",
+                                "Basque",
+                                "Catalan",
+                                "Galician"
+                            ]
+                        }
+                    ],
+                    "largest_city": "Madrid",
+                    "religion": "Christianity",
+                    "demonym(s)": "Spanish",
+                    "calling_code": "+34",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-09",
+                                    "date_to": "2023-01-20"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 445,
+                                                            "student": 400,
+                                                            "child": 370,
+                                                            "infant": 300
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 625,
+                                                            "student": 590,
+                                                            "child": 570,
+                                                            "infant": 500
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 625,
+                                                    "student": 490,
+                                                    "child": 480,
+                                                    "infant": 410
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 725,
+                                                    "student": 690,
+                                                    "child": 700,
+                                                    "infant": 600
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Greece": {
+                    "capital": "Athens",
+                    "description": "Greece is a country in southeastern Europe with thousands of islands throughout the Aegean and Ionian seas. Influential in ancient times, it's often called the cradle of Western civilization.",
+                    "population": 10432481,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "offical_language": "Greek",
+                            "other_languages": [
+                                "Macedonian ",
+                                "Albanian",
+                                "Bulgarian"
+                            ]
+                        }
+                    ],
+                    "largest_city": "Athens",
+                    "religion": "Christianity",
+                    "demonym(s)": "Greek",
+                    "calling_code": "+30",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-12",
+                                    "date_to": "2023-01-17"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 245,
+                                                            "student": 200,
+                                                            "child": 270,
+                                                            "infant": 120
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 425,
+                                                            "student": 390,
+                                                            "child": 370,
+                                                            "infant": 300
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 525,
+                                                    "student": 390,
+                                                    "child": 380,
+                                                    "infant": 310
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 625,
+                                                    "student": 590,
+                                                    "child": 600,
+                                                    "infant": 500
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "France": {
+                    "capital": "Paris",
+                    "description": "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre.",
+                    "population": 67897000,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "offical_language": "French",
+                            "other_languages": [
+                                "Portuguese",
+                                "Spanish "
+                            ]
+                        }
+                    ],
+                    "largest_city": "Paris",
+                    "religion": "Christianity",
+                    "demonym(s)": "French",
+                    "calling_code": "+33",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-12",
+                                    "date_to": "2023-01-17"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 215,
+                                                            "student": 190,
+                                                            "child": 240,
+                                                            "infant": 110
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 425,
+                                                            "student": 390,
+                                                            "child": 370,
+                                                            "infant": 300
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 525,
+                                                    "student": 390,
+                                                    "child": 380,
+                                                    "infant": 310
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 725,
+                                                    "student": 690,
+                                                    "child": 550,
+                                                    "infant": 505
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Italy": {
+                    "capital": "Rome",
+                    "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins.",
+                    "population": 60246665,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "offical_language": "Italian",
+                            "other_languages": [
+                                "Albanian",
+                                "German",
+                                "Occitan"
+                            ]
+                        }
+                    ],
+                    "largest_city": "Rome",
+                    "religion": "Christianity",
+                    "demonym(s)": "Italian",
+                    "calling_code": "+39",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-02",
+                                    "date_to": "2023-01-13"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 265,
+                                                            "student": 250,
+                                                            "child": 230,
+                                                            "infant": 100
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 475,
+                                                            "student": 360,
+                                                            "child": 330,
+                                                            "infant": 250
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 525,
+                                                    "student": 390,
+                                                    "child": 380,
+                                                    "infant": 310
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 625,
+                                                    "student": 590,
+                                                    "child": 600,
+                                                    "infant": 500
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "German": {
+                    "capital": "Berlin",
+                    "description": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history.",
+                    "population": 84680273,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "official_language": "German",
+                            "other_languages": [
+                                "Sorbian"
+                            ]
+                        }
+                    ],
+                    "largest_city": "Berlin",
+                    "religion": "Christianity",
+                    "demonym(s)": "German",
+                    "calling_code": "+49",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-10",
+                                    "date_to": "2023-01-15"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 435,
+                                                            "student": 300,
+                                                            "child": 290,
+                                                            "infant": 220
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 535,
+                                                            "student": 500,
+                                                            "child": 490,
+                                                            "infant": 420
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 535,
+                                                    "student": 400,
+                                                    "child": 390,
+                                                    "infant": 320
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 635,
+                                                    "student": 600,
+                                                    "child": 690,
+                                                    "infant": 520
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Australia": {
+                    "capital": "Canberra",
+                    "description": "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands.",
+                    "population": 25890773,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "official_language": "English",
+                            "other_languages": [
+                                "Mandarin",
+                                "Arabic",
+                                "Vietnamese",
+                                "Cantonese",
+                                "Punjabi",
+                                "Greek",
+                                "Italian"
+
+                            ]
+                        }
+                    ],
+                    "largest_city": "Canberra",
+                    "religion": "Christianity",
+                    "demonym(s)": "australians",
+                    "calling_code": "+61",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-01",
+                                    "date_to": "2023-01-15"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 435,
+                                                            "student": 300,
+                                                            "child": 290,
+                                                            "infant": 220
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 535,
+                                                            "student": 500,
+                                                            "child": 490,
+                                                            "infant": 420
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 535,
+                                                    "student": 400,
+                                                    "child": 390,
+                                                    "infant": 320
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 635,
+                                                    "student": 600,
+                                                    "child": 690,
+                                                    "infant": 520
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Portugal": {
+                    "capital": "Lisbon",
+                    "description": "Portugal is a southern European country on the Iberian Peninsula, bordering Spain. Its location on the Atlantic Ocean has influenced many aspects of its culture.",
+                    "population": 10352042,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "official_language": "Portuguese",
+                            "other_languages": [
+                                "Punjabi",
+                                "Greek",
+                                "Italian"
+
+                            ]
+                        }
+                    ],
+                    "largest_city": "Lisbon",
+                    "religion": "Christianity",
+                    "demonym(s)": "Portuguese",
+                    "calling_code": "+351",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-14",
+                                    "date_to": "2023-01-22"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 437,
+                                                            "student": 307,
+                                                            "child": 297,
+                                                            "infant": 227
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 538,
+                                                            "student": 506,
+                                                            "child": 498,
+                                                            "infant": 426
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Japan": {
+                    "capital": "Tokyo",
+                    "description": "Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan.",
+                    "population": 125538527,
+                    "currency": "Japanese yen ",
+                    "language": [
+                        {
+                            "official_language": "Japanese",
+                            "other_languages": [
+                                "Ainu",
+                                "Yaeyama",
+                                "Yonaguni"
+
+                            ]
+                        }
+                    ],
+                    "largest_city": "Tokyo",
+                    "religion": "Shintō",
+                    "demonym(s)": "Japanese",
+                    "calling_code": "+81",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-14",
+                                    "date_to": "2023-01-22"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 437,
+                                                            "student": 307,
+                                                            "child": 297,
+                                                            "infant": 227
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 538,
+                                                            "student": 506,
+                                                            "child": 498,
+                                                            "infant": 426
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Dubai": {
+                    "capital": "Abu Dhabi",
+                    "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene.",
+                    "population": 3515813,
+                    "currency": "Dirham",
+                    "language": [
+                        {
+                            "official_language": "Arabic",
+                            "other_languages": "English"      
+                        }
+                    ],
+                    "largest_city": "Abu Dhabi",
+                    "religion": "Islam",
+                    "demonym(s)": "Dubaian",
+                    "calling_code": "+81",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-15",
+                                    "date_to": "2023-01-23"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 427,
+                                                            "student": 307,
+                                                            "child": 277,
+                                                            "infant": 247
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 532,
+                                                            "student": 516,
+                                                            "child": 478,
+                                                            "infant": 424
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Egypt": {
+                    "capital": "Cairo",
+                    "description": "Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs.",
+                    "population": 6015812,
+                    "currency": "Egyptian Pound",
+                    "language": [
+                        {
+                            "official_language": "Arabic",
+                            "other_languages": "English"      
+                        }
+                    ],
+                    "largest_city": "Cairo",
+                    "religion": "Islam",
+                    "demonym(s)": "Egyptian",
+                    "calling_code": "+20",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-15",
+                                    "date_to": "2023-01-23"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 417,
+                                                            "student": 317,
+                                                            "child": 287,
+                                                            "infant": 257
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 532,
+                                                            "student": 516,
+                                                            "child": 478,
+                                                            "infant": 424
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Qatar": {
+                    "capital": "Doha",
+                    "description": "Qatar is a peninsular Arab country whose terrain comprises arid desert and a long Persian (Arab) Gulf shoreline of beaches and dunes.",
+                    "population": 2015812,
+                    "currency": "Qatari Riyal",
+                    "language": [
+                        {
+                            "official_language": "Arabic",
+                            "other_languages": "English"      
+                        }
+                    ],
+                    "largest_city": "Doha",
+                    "religion": "Islam",
+                    "demonym(s)": "Qatari",
+                    "calling_code": "+974",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-15",
+                                    "date_to": "2023-01-23"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 417,
+                                                            "student": 317,
+                                                            "child": 287,
+                                                            "infant": 257
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 532,
+                                                            "student": 516,
+                                                            "child": 478,
+                                                            "infant": 424
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "England": {
+                    "capital": "London",
+                    "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north.",
+                    "population": 55015812,
+                    "currency": "Pound",
+                    "language": [
+                        {
+                            "official_language": "Arabic",
+                            "other_languages": "English"      
+                        }
+                    ],
+                    "largest_city": "Glasgow",
+                    "religion": "Christianity",
+                    "demonym(s)": "English",
+                    "calling_code": "+44",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-15",
+                                    "date_to": "2023-01-23"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 457,
+                                                            "student": 357,
+                                                            "child": 257,
+                                                            "infant": 257
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 532,
+                                                            "student": 516,
+                                                            "child": 478,
+                                                            "infant": 424
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Finland": {
+                    "capital": "Helsinki",
+                    "description": "Finland is a Northern European nation bordering Sweden, Norway and Russia. Its capital, Helsinki, occupies a peninsula and surrounding islands in the Baltic Sea.",
+                    "population": 5015332,
+                    "currency": "Euro",
+                    "language": [
+                        {
+                            "official_language": "Finnish",
+                            "other_languages": "Swedish"      
+                        }
+                    ],
+                    "largest_city": "Helsinki",
+                    "religion": "Christianity",
+                    "demonym(s)": "Finnish",
+                    "calling_code": "+44",
+                    "flight_gate": null,
+                    "tickets": [
+                        {
+                            "flight_status": "Scheduled",
+                            "Departure_date": [
+                                {
+                                    "date_from": "2022-12-05",
+                                    "date_to": "2023-01-23"
+                                }
+                            ],
+                            "passenger_selection": [
+                                {
+                                    "economy_class": {
+                                        "tripway": [
+                                            {
+                                                "one_way": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 452,
+                                                            "student": 327,
+                                                            "child": 237,
+                                                            "infant": 227
+                                                        }
+                                                    ]
+                                                },
+                                                "round_trip": {
+                                                    "passenger_price": [
+                                                        {
+                                                            "adult": 532,
+                                                            "student": 516,
+                                                            "child": 478,
+                                                            "infant": 424
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "business_class": {
+                                "tripway": [
+                                    {
+                                        "one_way": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 530,
+                                                    "student": 405,
+                                                    "child": 395,
+                                                    "infant": 325
+                                                }
+                                            ]
+                                        },
+                                        "round_trip": {
+                                            "passenger_price": [
+                                                {
+                                                    "adult": 630,
+                                                    "student": 605,
+                                                    "child": 695,
+                                                    "infant": 525
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

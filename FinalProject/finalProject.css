@@ -1,0 +1,914 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+/*logo size*/
+
+.header{
+    background-image: linear-gradient(rgba(3, 8, 29, 0.7), rgba(3, 8, 29, 0.7)), url('img/background.png');   /*https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_trans*/
+    background-size: cover;
+    background-position: center;
+    width: 100%;    /*header width*/
+    height:750px;  /*header height*/
+    min-height: 750px;
+}
+
+/*-- focus on the header, logo, and icons--*/
+nav{
+    display: flex;
+    justify-content: space-between; /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_justify-content2*/
+    /*changed px to %*/
+    padding-top: 0.2%;
+    padding-bottom: 19%;
+    padding-left: 2%;
+    padding-right: 4%;
+    align-items: center;
+}
+
+/*--image--*/
+nav img{
+    width: 45%;   /*logo width*/
+}
+/*--the header, logo, and icons--*/
+.navagationBar{
+    flex: 1;  /*expansion*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex*/
+    text-align: right;
+}
+
+.navagationBar ul li{
+    display: inline-block; /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_display*/
+    padding-bottom: 8px;
+    padding-left: 31px;   /*distance between the navigation bars*/
+    position: relative;
+}
+
+.navagationBar ul li a{
+    color: #ffffff;
+    text-decoration: none;  /*gets rid of the link lines under navagation*/
+    font-size: 14px;
+
+}
+/*--this is the hover effect on navagation bar--*/
+.navagationBar ul li::after{ /*This is the after procedure*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_after*/
+    content:''; /*this position hides the content unless place into ''*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_content*/  /*allows the animation line from appearing on the navigation bar*/
+    width: 0%;
+    height: 2px;
+    background-color: #0099ff;
+    display: block;
+    transition: 0.4s; /*timer*//*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition_delay*/
+}
+
+.navagationBar ul li:hover::after{   /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more*/
+    width: 100%;  /*combined the hover and after together to create the animation of navagation*/
+}
+
+.About-Us-Box{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    left: 50%;
+    top: 45.5%;
+    transform: translate(-50%,-50%); /*About-Us-Box position in center*//*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_translate*/
+    width: 100%;
+}
+
+.About-Us-Box h1{
+    font-size: 70px;
+    margin-bottom: 7.5px;
+}
+
+.About-Us-Box p{
+    margin-bottom: 40px;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+/*--this is the hover effect on the button--*/
+.button-btn{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color: #ffffff;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 15.5px 37.5px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;     /*allows mouse to be pointer once click*/
+}
+
+.button-btn:hover{
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+
+nav .fa{
+    display: none;  /*--hide the javascript icon on big screens--*/
+}
+
+/*responsive section of the header*/
+@media(max-width: 865px){
+    .About-Us-Box h1{
+        font-size: 22.5px;
+    }
+    .navagationBar ul li{
+        display: block;
+    }
+    .navagationBar{
+        position: absolute;
+        background-color: #3ebcfb;
+        height: 590px;
+        top: 0;
+        right: 0;
+        width: 200px;
+        text-align: left; /*menue bar keep left on small devices*/
+        z-index: 1; /*how visible you would like the navagation -1 to 1*/ /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex*/
+        transition: 1.1s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22.5px;
+        cursor: pointer;
+    }
+    .navagationBar ul{
+        padding: 30px;
+    }
+    .header{
+        height: 590px;
+        min-height: 590px
+    }
+
+}
+
+
+/*this is the benefit section within the home page!*/
+.benefit-section{
+    width: 85%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 37px;
+    font-weight: 600;
+
+}
+
+
+p{
+    color: #5f5f5f;
+    line-height: 22.5px;
+    font-weight: 300; /*thickness of p*/
+    font-size: 14.5px;
+    padding: 8px;
+}
+
+.row{
+    justify-content: space-between;
+    display: flex;
+    margin:5%;
+
+}
+/*background color for columns*/
+.benefit-col{
+    background: #aacff9;
+    flex-basis: 32%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    border-radius: 10px; /*curve on boxes*/
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+h3{
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-weight: 600; /*thickness of font*/
+    text-align: center;
+}
+/*creating a shadow box background*/
+.benefit-col:hover{
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 1); /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow2*/
+}
+
+/*box fixed at small divve level*/
+@media(max-width:865px){
+    .row{
+        flex-direction: column; /*turns into columns*/
+    }
+}
+
+
+
+/*--------country availability------- */
+.option{
+    width: 100%;
+    background: #efefef;
+    padding: 69px 0;
+    margin: auto;
+    text-align: center;
+}
+
+.option-section{
+    width: 93%;
+    margin: auto;
+    flex-wrap: wrap; /*create a wrap*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-wrap*/
+    display: flex;
+    justify-content: space-around; /*creating a space in between*/
+
+}
+
+.section{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    flex-basis: 32%;
+    text-align: center;
+    border-radius: 7px;
+    position: relative;
+}
+.section img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.overlayonbackground{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 7px;
+    position: absolute;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,255,0.3), #aacff9);
+    opacity: 0; /*fading level to 0*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_opacity*/
+    transition: 1s;
+
+}
+
+.section:hover .overlayonbackground{
+    opacity: 1; /*fading level increase to 1 when hover*/
+}
+
+.option-section-description{
+    transform: translateX(-50%); /*About-Us-Box position in center*//*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_translate*/
+    left: 50%;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    opacity: 0;
+    transition: 1.1s;
+}
+
+hr{						/*border not required*/
+    background: white;
+    margin: 0px auto; /*https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_shorthand_2val*/
+    height: 1px;
+    width:60%;
+}
+
+.option-section-description{
+    font-size: 15px;
+
+}
+.option-section-description p {
+    font-size: 14px;
+    color: white;
+}
+
+.section:hover .option-section-description{
+    bottom: 30%;     /*this is the movement of the txt after the hover*/
+    opacity: 1;
+}
+
+@media(max-width:865px){
+    .section{
+        flex-basis: 100%; /*explained above-expansion*/
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .paragraph2{
+        font-size: 13px;
+        color: white;
+    }
+    .option-section-description{
+        font-size: 14px;
+
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .section:hover .option-section-description{
+        bottom: 35%;
+
+    }
+}
+
+/*this is a mini button if the user is at the bottom of the page*/
+
+.action-to-apply-page{
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(5, 13, 50, 1), rgba(37, 40, 100, 0.7)), url('img/finalSection.jpg');
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    padding:100px 0;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+
+
+}
+.action-to-apply-page h1{
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+
+@media(max-width:865px){
+    .action-to-apply-page h1{
+        font-size: 25px;
+
+    }
+}
+
+
+
+
+/*this is the discover page css*/
+.header1{
+    background-image: linear-gradient(rgba(3, 8, 29, 0.7), rgba(3, 8, 29, 0.7)), url('img/background.png');   /*https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_trans*/
+    background-size: cover;
+    background-position: center;
+    width: 100%;    /*header width*/
+    height:600px;  /*header height*/
+    min-height: 600px;
+}
+
+/*-- focus on the header, logo, and icons--*/
+nav{
+    display: flex;
+    justify-content: space-between; /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_justify-content2*/
+    /*changed px to %*/
+    padding-top: 0.2%;
+    padding-bottom: 19%;
+    padding-left: 2%;
+    padding-right: 4%;
+    align-items: center;
+}
+
+/*--image--*/
+nav img{
+    width: 45%;   /*logo width*/
+}
+/*--the header, logo, and icons--*/
+.navagationBar1{
+    flex: 1;  /*expansion*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex*/
+    text-align: right;
+}
+
+.navagationBar1 ul li{
+    display: inline-block; /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_display*/
+    padding-bottom: 60px;
+    padding-left: 31px;   /*distance between the navigation bars*/
+    position: relative;
+}
+
+.navagationBar1 ul li a{
+    color: #ffffff;
+    text-decoration: none;  /*gets rid of the link lines under navagation*/
+    font-size: 14px;
+
+}
+/*--this is the hover effect on navagation bar--*/
+.navagationBar1 ul li::after{ /*This is the after procedure*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_after*/
+    content:''; /*this position hides the content unless place into ''*//*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_content*/  /*allows the animation line from appearing on the navigation bar*/
+    width: 0%;
+    height: 2px;
+    background-color: #0099ff;
+    display: block;
+    transition: 0.4s; /*timer*//*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition_delay*/
+}
+
+.navagationBar1 ul li:hover::after{   /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more*/
+    width: 100%;  /*combined the hover and after together to create the animation of navagation*/
+}
+
+.About-Us-Box1{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    left: 50%;
+    top: 40.5%;
+    transform: translate(-50%,-50%); /*About-Us-Box position in center*//*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_translate*/
+    width: 100%;
+}
+
+.About-Us-Box1 h1{
+    font-size: 70px;
+    margin-bottom: 7.5px;
+}
+
+.About-Us-Box1 p{
+    margin-bottom: 40px;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+
+nav .fa{
+    display: none;  /*--hide the javascript icon on big screens--*/
+}
+
+/*responsive section of the header*/
+@media(max-width: 865px){
+    .About-Us-Box1 h1{
+        font-size: 22.5px;
+    }
+    .navagationBar1 ul li{
+        display: block;
+    }
+    .navagationBar1{
+        position: absolute;
+        background-color: #3ebcfb;
+        height: 590px;
+        top: 0;
+        right: 0;
+        width: 200px;
+        text-align: left; /*menue bar keep left on small devices*/
+        z-index: 1; /*how visible you would like the navagation -1 to 1*/ /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex*/
+        transition: 1.1s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22.5px;
+        cursor: pointer;
+    }
+    .navagationBar1 ul{
+        padding: 30px;
+    }
+    .header1{
+        height: 590px;
+        min-height: 590px
+    }
+
+}
+
+
+/*this is the country description*/
+/*flight discovery collection*/
+.flight-collection{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #efefef;
+
+}
+
+h1{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+
+p{
+    color: #5f5f5f;
+    line-height: 22.5px;
+    font-weight: 300; /*thickness of p*/
+    font-size: 14.5px;
+    padding: 8px;
+}
+
+.flight-row{
+    justify-content: space-between;
+    display: flex;
+    margin:5%;
+    grid-gap: 10px;
+    text-decoration: none;
+}
+/*background color for columns*/
+.flight-products{
+
+    flex-basis: 32%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    border-radius: 10px; /*curve on boxes*/
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+h3{
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-weight: 600; /*thickness of font*/
+    text-align: center;
+    text-decoration: none;
+}
+.flight-row a, .flight-products{
+    text-decoration: none;
+}
+/*creating a shadow box background*/
+.flight-products:hover{
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 1); /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow2*/
+}
+
+/*box fixed at small divve level*/
+@media(max-width:865px){
+    .flight-row{
+        flex-direction: column; /*turns into columns*/
+    }
+}
+
+.image{
+    width:300px;
+    height:200px;
+}
+
+
+
+/*this is the image size of each country html*/
+.imgs {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.benefits-section{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    background: #efefef;
+}
+
+.btn1{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn1:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn2{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn2:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn3{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn3:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn4{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn4:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn5{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn5:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn6{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn6:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn7{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn7:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn8{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn8:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn9{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn9:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn10{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn10:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn11{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn11:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn12{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn12:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn13{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn13:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn14{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn14:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+.btn15{
+    display: inline-block;
+    text-decoration: none;  /*gets rid of the link link uder the txt within the button*/
+    color : white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;   
+    background-color: transparent;
+    
+}
+
+.btn15:hover{
+border-width: 1.5px;
+    border-style: solid;
+    border-color: #3ebcfb;
+    background-color: #3ebcfb;
+    transition: 0.8s; /*timer of button*/
+}
+
+.headertext{
+    text-align: center;
+}
+.headertext1{
+    text-align: center;
+}
+.par1{
+    text-align: center;
+}
+.par2{
+    text-align: center;
+}
+.par3{
+    text-align: center;
+}
+.par4{
+    text-align: center;
+}
+
+
+
+
+

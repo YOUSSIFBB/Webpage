@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>JetBird</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="finalProject.css">
+        <script src = "finalProject.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+        <!--connect the fonts-->
+        <script src="https://kit.fontawesome.com/a9f8161db4.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--logo & navigation bar-->
+        <section class="header1">
+            <nav>
+                <a href="homePage.html"><img src="img/logo.png" class="logo" alt="logo"></a>		
+                <div class="navagationBar1" id="navigationIcon">
+                    <!--closing "x" & menue icon navigation bar on small devices-->
+                    <i class="fa fa-times" onclick="hiddenMenue()"></i>
+                    <ul>
+                        <li><a href="homePage.html">HOME</a></li>
+                        <li><a href="discover.html">DESTINATION</a></li>
+                        <li><a href="countryInfo.html">COUNTRY INFO</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="visibleMenue()"></i>
+            </nav>
+
+            <!--About-Us-Box-->
+            <div class="About-Us-Box1">
+                <h1>Contact Us!</h1>
+                <p>Check Out Our Contact Info Below:</p>
+            </div>
+        </section>
+        <!--contact info-->
+        <section>
+            <br/>
+            <h1 class="headertext">Contact The Team Management </h1>
+            </br>
+            <p class="par1">Get the information you might need Below:</p>
+            <p class="par2"><strong>Telephone Number-</strong>0892763582</p>
+            <p class="par3"><strong>Email-</strong>JetBird@airline.ie</p>
+            <p class="par4"><strong>Location-</strong>FA, airport, Dublin</p>
+        </section>
+
+
+        <!--Javascript, allowing icons to hide/show small devices-->
+        <!--https://www.bing.com/videos/search?view=detail&mid=732BB3ADE7EFC3CAB0B9732BB3ADE7EFC3CAB0B9&q=how to add responsive icon logo menue&shtp=GetUrl&shid=8a1b8ded-e882-4965-b3dd-6b94ee79a564&shtk=SG93IHRvIENyZWF0ZSBSZXNwb25zaXZlIE5hdmlnYXRpb24gQmFyIHVzaW5nIEhUTUwgYW5kIENTUw%3D%3D&shdk=SG93IHRvIENyZWF0ZSBSZXNwb25zaXZlIE5hdmlnYXRpb24gQmFyIHVzaW5nIEhUTUwgYW5kIENTUyBJbiB0aGlzIHZpZGVvLCBJIGhhdmUgc2hvd24geW91IGhvdyB0byBjcmVhdGUgYSByZXNwb25zaXZlIG5hdmlnYXRpb24gYmFyIHVzaW5nIGh0bWwgYW5kIGNzcyBvbmx5IE5PVEU6IE5vd2FkYXlzIHRoYXQgZm9udCBhd2Vzb21lIGxpbmsgSSBwcm92aWRlZCBub3Qgc3VwcG9ydCBzbyB5b3VyIGljb24gbWF5IG5vdCBiZSBzaG93aW5nLiBQbGVhc2UgdXNlIHRoZSBsYXRlc3QgQ0ROIGxpbmsgd2hpY2ggeW91IGNhbiBlYXNpbHkgZmluZCBvbiBHb29nbGUuIFJlc3BvbnNpdmUgRHJvcGRvd24gTWVudSAuLi4%3D&shhk=JuSHGCuTayyqdXTx15fwW8IENHkWFwBoylB3GX42t7M%3D&form=VDSHOT&shth=OVP.dnaBwazD3vcc0PJJqTzZdwHgFo-->
+        <!--Video above explains how to create resopsive icons-->
+        <script>
+            var navigationIcon = document.getElementById("navigationIcon")
+            function visibleMenue() {
+                navigationIcon.style.right = "0";
+            }
+            function hiddenMenue() {
+                navigationIcon.style.right = "-205px";
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>JetBird</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="finalProject.css">
+        <script src = "finalProject.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+        <!--connect the fonts-->
+        <script src="https://kit.fontawesome.com/a9f8161db4.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--logo & navigation bar-->
+        <section class="header1">
+            <nav>
+                <a href="homePage.html"><img src="img/logo.png" class="logo" alt="logo"></a>		
+                <div class="navagationBar1" id="navigationIcon">
+                    <!--closing "x" & menue icon navigation bar on small devices-->
+                    <i class="fa fa-times" onclick="hiddenMenue()"></i>
+                    <ul>
+                        <li><a href="homePage.html">HOME</a></li>
+                        <li><a href="discover.html">DESTINATION</a></li>
+                        <li><a href="countryInfo.html">COUNTRY INFO</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="visibleMenue()"></i>
+            </nav>
+
+            <!--About-Us-Box-->
+            <div class="About-Us-Box1">
+                <h1>Flight Country Information</h1>
+                <p>We are delighted to reunite you and your loved ones,<br/>Check out our latest Flight countries available</p>
+            </div>
+        </section>
+
+        <section class="flight-collection">
+            <h1>Flight Ticket Collection</h1>
+            <p>Check Out The Tickets Info below:</p>
+
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country1.jpg" />
+                    <h3>Turkey</h3>
+                    <p class = "e1"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country2.jpg" />
+                    <h3>Ireland</h3>
+                    <p class = "e2"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country3.jpg" />
+                    <h3>Spain</h3>
+                    <p class = "e3"></p>
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country4.jpg" />
+                    <h3>Greece</h3>
+                    <p class ="e4"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country5.jpg" />
+                    <h3>France</h3>
+                    <p class ="e5"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country6.jpg" />
+                    <h3>Italy</h3>
+                    <p class = "e6"></p>
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country7.jpg" />
+                    <h3>Germany</h3>
+                    <p class = "e7"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country8.jpg" />
+                    <h3>Australia</h3>
+                    <p class = "e8"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country9.jpg" />
+                    <h3>Portugal</h3>
+                    <p class = "e9"></p>
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country10.jpg" />
+                    <h3>Japan</h3>
+                    <p class = "e10"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country11.jpg" />
+                    <h3>Dubai</h3>
+                    <p class = "e11"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country12.jpg" />
+                    <h3>Egypt</h3>
+                    <p class = "e12"></p>
+                </div>
+            </div>
+            <div class="flight-row">
+                <div class="flight-products">
+                    <img class="image" src="img/country13.jpg" />
+                    <h3>Qatar</h3>
+                    <p class = "e13"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country14.jpg" />
+                    <h3>England</h3>
+                    <p class = "e14"></p>
+                </div>
+                <div class="flight-products">
+                    <img class="image" src="img/country12.jpg" />
+                    <h3>Finland</h3>
+                    <p class = "e15"></p>
+                </div>
+            </div>
+        </section>
+
+        <!--Javascript, allowing icons to hide/show small devices-->
+        <!--https://www.bing.com/videos/search?view=detail&mid=732BB3ADE7EFC3CAB0B9732BB3ADE7EFC3CAB0B9&q=how to add responsive icon logo menue&shtp=GetUrl&shid=8a1b8ded-e882-4965-b3dd-6b94ee79a564&shtk=SG93IHRvIENyZWF0ZSBSZXNwb25zaXZlIE5hdmlnYXRpb24gQmFyIHVzaW5nIEhUTUwgYW5kIENTUw%3D%3D&shdk=SG93IHRvIENyZWF0ZSBSZXNwb25zaXZlIE5hdmlnYXRpb24gQmFyIHVzaW5nIEhUTUwgYW5kIENTUyBJbiB0aGlzIHZpZGVvLCBJIGhhdmUgc2hvd24geW91IGhvdyB0byBjcmVhdGUgYSByZXNwb25zaXZlIG5hdmlnYXRpb24gYmFyIHVzaW5nIGh0bWwgYW5kIGNzcyBvbmx5IE5PVEU6IE5vd2FkYXlzIHRoYXQgZm9udCBhd2Vzb21lIGxpbmsgSSBwcm92aWRlZCBub3Qgc3VwcG9ydCBzbyB5b3VyIGljb24gbWF5IG5vdCBiZSBzaG93aW5nLiBQbGVhc2UgdXNlIHRoZSBsYXRlc3QgQ0ROIGxpbmsgd2hpY2ggeW91IGNhbiBlYXNpbHkgZmluZCBvbiBHb29nbGUuIFJlc3BvbnNpdmUgRHJvcGRvd24gTWVudSAuLi4%3D&shhk=JuSHGCuTayyqdXTx15fwW8IENHkWFwBoylB3GX42t7M%3D&form=VDSHOT&shth=OVP.dnaBwazD3vcc0PJJqTzZdwHgFo-->
+        <!--Video above explains how to create resopsive icons-->
+        <script>
+            var navigationIcon = document.getElementById("navigationIcon")
+            function visibleMenue() {
+                navigationIcon.style.right = "0";
+            }
+            function hiddenMenue() {
+                navigationIcon.style.right = "-205px";
+            }
+
+        </script>
+
+    </body>
+</html>
