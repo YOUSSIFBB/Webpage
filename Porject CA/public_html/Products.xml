@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!-- Root node products -->
+<products
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ProductsXmlSchema.xsd'>
+    <!--
+        *FootWear code starts with : #002-00
+        *Watches code starts with : #004-00
+        *Wallets code starts with: #007-00
+    -->
+    <!--Inject all data child elements here -->
+    <product code ="002-01">
+        <category>New Men's Brogue With Featured Lace Up Fastener</category>
+        <brandName>S and B</brandName>
+        <description>Style Formal Shoes, suitable for Casual Wear ,formal Wear</description>
+        <quantity>3</quantity>
+        <unitPrice>800.00</unitPrice>
+    </product>
+    <product code ="002-02">
+        <category>Office Shoes - Canadian</category>
+        <brandName>Aldo</brandName>
+        <description>Nice brown shiny colour, well suited for busnisses and casual events</description>
+        <quantity>6</quantity>
+        <unitPrice>1000.00</unitPrice>
+    </product>
+    <product code ="002-03">
+        <category>Italian Winter Boots</category>
+        <brandName>Alfredo Men's</brandName>
+        <description>Comfortable winter boots, popular in italy, well suited for winter and work</description>
+        <quantity>8</quantity>
+        <unitPrice>300.00</unitPrice>
+    </product>
+    <product code ="002-04">
+        <category>Italian Winter Women's Boots </category>
+        <brandName>Alfredo Women's</brandName>
+        <description>Elegant style for winter, top trending in USA, avialable in different light colours</description>
+        <quantity>2</quantity>
+        <unitPrice>799.99</unitPrice>
+    </product>
+    <product code ="002-05">
+        <category>Luxry Women's Boots</category>
+        <brandName>Celine Margaret</brandName>
+        <description>Ceiline Margraet Sued leather classic side gusset dealer boot</description>
+        <quantity>3</quantity>
+        <unitPrice>270.00</unitPrice>
+    </product>
+    <product code ="002-06">
+        <category>Men's Ankle Boots</category>
+        <brandName>Tommy Hilfiger</brandName>
+        <description>Your go to for all the latest trends, no matter WHO,WHERE,and WHAT youre up to </description>
+        <quantity>17</quantity>
+        <unitPrice>369.43</unitPrice>
+    </product>
+    <product code ="004-01">
+        <category>Leather Strap Men's Wrist Watch</category>
+        <brandName>TISSOT</brandName>
+        <description>TISSOT High Qaulity leather strap watch with an elegant classic design</description>
+        <quantity>11</quantity>
+        <unitPrice>188.99</unitPrice>
+    </product>
+    <product code ="004-02">
+        <category>Men's Black Wrist Watch with Leather Strap</category>
+        <brandName>SIEKO</brandName>
+        <description>This versatile watch blends in with every occasion be it formal or casual</description>
+        <quantity>18</quantity>
+        <unitPrice>210.00</unitPrice>
+    </product>
+    <product code ="004-03">
+        <category>Men's Grey Wrist Watch</category>
+        <brandName>CITIZEN</brandName>
+        <description>The CITIZEN analog watch with quartz movement offers a classy look. The case is made up of high grade stainless steel</description> 
+        <quantity>4</quantity>
+        <unitPrice>249.99</unitPrice>
+    </product>
+    <product code ="004-04">
+        <category>Men's (Silver Stainless steel) Sweeden Manifacture Watch</category>
+        <brandName>CURREN</brandName>
+        <description>CURREN CHRONOGRAPH is a brand from Switzerland, which combines high-level Swiss technology and cutting-edge design</description> 
+        <quantity>7</quantity>
+        <unitPrice>212.47</unitPrice>
+    </product>
+    <product code ="004-05">
+        <category>Men's (Limited edition)Wrist Watch</category>
+        <brandName>ROLEX</brandName>
+        <description>Rolex Classic style water proof wrist watch equipped with a self-winding module via a Perpetual rotor</description> 
+        <quantity>3</quantity>
+        <unitPrice>979.99</unitPrice>
+    </product>
+    <product code ="004-06">
+        <category>Unisex Writst Watch</category>
+        <brandName>ADBRE London</brandName>
+        <description>ADBRE LONDON unique blue design with blue leather strap, made for both men and women</description> 
+        <quantity>5</quantity>
+        <unitPrice>199.75</unitPrice>
+    </product>
+    <product code ="007-01">
+        <category>Mens Wallet</category>
+        <brandName>STATUG ARXIETY</brandName>
+        <description>Brown leather wallet with orange lacing, for a nice elegant look for men and a way to keep all you cash and cards in place</description> 
+        <quantity>10</quantity>
+        <unitPrice>80.50</unitPrice>
+    </product>
+    <product code ="007-02">
+        <category>Snake Leather Mens Wallet</category>
+        <brandName>ULX</brandName>
+        <description>Simple black leather design with the ULX logo, good qaulity leather shows off the simplicity of the design</description> 
+        <quantity>8</quantity>
+        <unitPrice>89.99</unitPrice>
+    </product>
+    <product code ="007-03">
+        <category>Mens Wallet Custom Leather</category>
+        <brandName>TEAKWOOD</brandName>
+        <description>One of a kind green leather, showcasing a new desing that blends well wiht nature</description> 
+        <quantity>4</quantity>
+        <unitPrice>75.45</unitPrice>
+    </product>
+    <product code ="007-04">
+        <category>Mens small Leather Wallet</category>
+        <brandName>GENTCREATE</brandName>
+        <description>Small mens wallet, good for holidng cards and cash with style</description> 
+        <quantity>7</quantity>
+        <unitPrice>55.00</unitPrice>
+    </product>
+    <product code ="007-05">
+        <category>Womens leather purse / Wallet</category>
+        <brandName>COACH</brandName>
+        <description>Womens COACH Light-weight collection of purses, availabe in 4 colurs, Navy blue, White, Black, and Beige</description> 
+        <quantity>27</quantity>
+        <unitPrice>95.00</unitPrice>
+    </product>
+    <product code ="007-06">
+        <category>Men's and Womens Rectngular Wallet (Unisex)</category>
+        <brandName>PLAYBOY</brandName>
+        <description>Rectangilar Beige leather Wallet, clean light Beige design with PlayBoy Logo</description> 
+        <quantity>7</quantity>
+        <unitPrice>45.49</unitPrice>
+    </product>
+</products>

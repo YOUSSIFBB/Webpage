@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src = "ProductsSearchBar.js"></script> 
+    </head>
+    <body>
+        <!-- Nav bar code here-->
+        <div class = "navbar" id="nav-list">
+            <a href="HomePage.html">Home</a>
+            <a href="Products.html">Products</a>
+            <a href="Search.html">Search</a>
+            <!-- <div class="search-box">
+                <input type="text" placeholder="Search e.g 002-43" name="search">
+                <button type="submit">Submit</button>
+            </div> -->
+            <div class="menu" id="togle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+
+        <script> 
+        // reference: https://www.youtube.com/watch?v=mh36Kts-wX8&t=608s 
+        const toggleButton = document.getElementById('togle-button');
+        const navlist = document.getElementById('nav-list');
+
+        toggleButton.addEventListener('click', () =>{
+            navlist.classList.toggle('active');
+        });
+        </script>
+        <!-- Nave bar code ends here-->
+
+        <!-- *******************Content here************************-->
+        <h1 class="Section-title"> Home page </h1>
+
+        <div class ="homeImage">
+            <div class = "homeImage-text">
+                <h1> le spécialiste du cuir</h1>
+                <br> 
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                     remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <br>
+                <p>Search our products in the search bar section of our website</p>
+                <a href = "Search.html" class = "call">Seach for our products</a>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
+

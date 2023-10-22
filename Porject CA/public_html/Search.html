@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src = "ProductsSearchBar.js"></script> 
+    </head>
+    <body>
+        <!-- Nav bar code here-->
+        <div class = "navbar" id="nav-list">
+            <a href="HomePage.html">Home</a>
+            <a href="Products.html">Products</a>
+            <a href="Search.html">Search</a>
+            <div class="search-box">
+                <input type="text" placeholder="Search e.g 002-03" name="search" id="input">
+                <button type="submit" id = "searchbutton" onclick = "loadXMLDoc()">Submit</button>
+            </div>
+            <div class="menu" id="togle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+
+        <script> 
+        // reference: https://www.youtube.com/watch?v=mh36Kts-wX8&t=608s 
+        const toggleButton = document.getElementById('togle-button');
+        const navlist = document.getElementById('nav-list');
+
+        toggleButton.addEventListener('click', () =>{
+            navlist.classList.toggle('active');
+        });
+        </script>
+        <!-- Nave bar code ends here-->
+
+        <h1 class="Section-title"> Search Page </h1>
+
+        <!-- Inject data into the tables below-->
+        <!-- Unable to provide images here, images are not incluided with xml data-->
+        <table>
+            <tr>
+                <td> Code :</td>
+                <td id ="code">..........</td>
+            </tr>
+            <tr>
+                <td>Category:</td>
+                <td id = "category">..........</td>
+            </tr>
+            <tr> 
+                <td>brandName:</td> 
+                <td id ="brandName">..........</td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td id = "description">..........</td>
+            </tr>
+            <tr>
+                <td>quantity</td>
+                <td id = "quantity">..........</td>
+            </tr>
+            <tr>
+                <td>unitPrice</td>
+                <td id = "unitPrice">..........</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
